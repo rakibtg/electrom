@@ -1,6 +1,9 @@
 const { app, BrowserWindow } = require('electron')
 const electronEvents = require('./electron_src/electronEvents')
 
+const dotenv = require('dotenv')
+dotenv.config()
+
 let win
 
 function createWindow () {
@@ -9,7 +12,8 @@ function createWindow () {
     height: 400
   })
   // win.loadFile('index.html')
-  win.loadURL('http://localhost:3000/')
+  const availablePort = process.env.PORT || 3000
+  win.loadURL(`http://localhost:${availablePort}/`)
   win.on('closed', () => {
     win = null
   })

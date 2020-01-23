@@ -3,16 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "copy-to-clipboard": "^3.0.8",
     "electron": "^3.0.5",
-    "evergreen-ui": "^4.0.2",
-    "javascript-time-ago": "^1.0.31",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-redux": "^5.0.7",
-    "react-scripts": "2.0.5",
-    "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0"
+    "react-scripts": "2.0.5"
   },
   "homepage": "./",
   "main": "main.js",
