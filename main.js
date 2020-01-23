@@ -9,7 +9,7 @@ function createWindow () {
     height: 400
   })
   // win.loadFile('index.html')
-  win.loadURL('http://localhost:3001/')
+  win.loadURL('http://localhost:3000/')
   win.on('closed', () => {
     win = null
   })
