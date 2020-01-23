@@ -1,0 +1,38 @@
+{
+  "name": "electrom",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "copy-to-clipboard": "^3.0.8",
+    "electron": "^3.0.5",
+    "evergreen-ui": "^4.0.2",
+    "javascript-time-ago": "^1.0.31",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "react-scripts": "2.0.5",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "homepage": "./",
+  "main": "main.js",
+  "scripts": {
+    "react-start": "react-scripts start",
+    "react-build": "react-scripts build",
+    "react-test": "react-scripts test",
+    "react-eject": "react-scripts eject",
+    "electron-start": "electron ."
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "electron-builder": "^20.28.4"
+  }
+}
