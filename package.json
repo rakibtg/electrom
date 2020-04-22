@@ -11,6 +11,7 @@
   "homepage": "./",
   "main": "main.js",
   "scripts": {
+    "start": "npm run react-start & npm run electron-start",
     "react-start": "react-scripts start",
     "react-build": "react-scripts build",
     "react-test": "react-scripts test",
